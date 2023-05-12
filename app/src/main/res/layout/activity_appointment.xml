@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:backgroundTint="#0b3954"
+    android:layout_height="match_parent">
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/background"
+        android:backgroundTint="#0b3954"/>
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/imageBack"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/ic_baseline_arrow_back_ios_24"
+        android:backgroundTint="@color/white"
+        android:padding="6dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="80dp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed-light"
+        android:text="Appointment Form"
+        android:textColor="@color/white"
+        android:textSize="23dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_content_bottom"
+            android:backgroundTint="#ECFDF1"
+            android:orientation="vertical">
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp">
+
+                <TextView
+                    android:id="@+id/textStatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:text="Pending"
+                    android:visibility="gone" />
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Choose your own time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </FrameLayout>
+
+                    <Button
+                        android:id="@+id/setTime"
+                        android:layout_width="100dp"
+                        android:layout_height="45dp"
+                        android:layout_marginStart="155dp"
+                        android:layout_marginTop="50dp"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:gravity="center"
+                        android:text="Set time"
+                        android:textSize="12dp"
+                        android:textStyle="bold" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="100dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Preferred Time"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="21dp">
+
+                    <Button
+                        android:id="@+id/button9am"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart=".60in"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="9 AM"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button1pm"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart=".60in"
+                        android:layout_marginTop="70dp"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="1 PM"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button10am"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="1.28in"
+                        android:layout_marginTop="20dp"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="10 AM"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                    <Button
+                        android:id="@+id/button3pm"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="1.28in"
+                        android:layout_marginTop="70dp"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="3 PM"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="290dp">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Selected Time and Date"
+                        android:textAlignment="center"
+                        android:textColor="@color/black"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="230dp">
+
+                    <Button
+                        android:id="@+id/setDate"
+                        android:layout_width="100dp"
+                        android:layout_height="50dp"
+                        android:layout_gravity="center"
+                        android:backgroundTint="@color/colorPrimary1"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Set date"
+                        android:textSize="13dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="330dp">
+
+                    <TextView
+                        android:id="@+id/textScheduleDateSet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1.15in"
+                        android:layout_marginTop="3dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="00:00"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart=".95in"
+                        android:src="@drawable/ic_calendar"
+                        app:tint="@color/black" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="360dp">
+
+                    <TextView
+                        android:id="@+id/textScheduleTimeSet"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="1.15in"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="mm/dd/yy"
+                        android:textColor="@color/black"
+                        android:textSize="15dp"
+                        android:textStyle="bold"
+                        android:visibility="visible" />
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="25dp"
+                        android:layout_marginStart=".95in"
+                        android:src="@drawable/ic_timer"
+                        app:tint="#000000" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="25dp"
+                        android:layout_marginTop="3dp"
+                        android:text="Date"
+                        android:textColor="@color/white"
+                        android:textSize="15dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="Name of Doctor"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/setDoctor"
+                    android:layout_width="140dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:backgroundTint="@color/colorPrimary1"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:text="Search Doctor"
+                    android:textSize="12dp"
+                    android:textStyle="bold" />
+
+
+            </FrameLayout>
+
+
+            <TextView
+                android:id="@+id/textDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:hint="DOCTOR'S NAME"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textDoctorMedField"
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:hint="DOCTOR's MEDICAL FIELD"
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtReason"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="25dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:hint="Reason..."
+                android:imeOptions="actionDone"
+                android:importantForAutofill="no"
+                android:inputType="text"
+                android:textAlignment="center"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="13dp"
+                android:textStyle="bold" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="145dp"
+                android:layout_marginTop="1dp"
+                android:animateLayoutChanges="true">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/buttonSubmit"
+                    android:layout_width="100dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="5dp"
+                    android:backgroundTint="@color/colorPrimaryDark"
+                    android:fontFamily="sans-serif-condensed-light"
+                    android:gravity="center"
+                    android:text="Submit"
+                    android:textColor="@color/white"
+                    android:textSize="11dp"
+                    android:textStyle="bold"
+                    app:cornerRadius="7dp" />
+
+                <ProgressBar
+                    android:id="@+id/progressBar"
+                    android:layout_width="21dp"
+                    android:layout_height="25dp"
+                    android:layout_gravity="center"
+                    android:visibility="invisible" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

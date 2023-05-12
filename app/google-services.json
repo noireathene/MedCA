@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "97863082220",
+    "firebase_url": "https://medca-4a0f2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "medca-4a0f2",
+    "storage_bucket": "medca-4a0f2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97863082220:android:5517cc1d1ffd7a8c78c5c9",
+        "android_client_info": {
+          "package_name": "com.example.medca"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97863082220-sifl8fncvjcbr3vaqgpte7ln5euf1ihc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medca",
+            "certificate_hash": "7c9a137b033a8b3502b15e1d990430e53777a578"
+          }
+        },
+        {
+          "client_id": "97863082220-p3938jc616ts3jbsf7jrcjiajrsvmjpm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXzqi7x0szNyvH8iYIGPl4g0P1mKu5qXQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97863082220-p3938jc616ts3jbsf7jrcjiajrsvmjpm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ECFDF1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="470dp"
+        android:background="@drawable/homepage_header_1"
+        android:backgroundTint="#0b3954">
+
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ImageView"
+            android:layout_width="400dp"
+            android:layout_height="300dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="50dp"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/icon_1" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="330dp"
+            android:fontFamily="sans-serif-condensed-medium"
+            android:text="MEDCA"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="40dp" />
+
+        <TextView
+            android:layout_centerHorizontal="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="390dp"
+            android:fontFamily="sans-serif-condensed-light"
+            android:text="A Medication Compliance Application"
+            android:textAlignment="center"
+            android:textColor="#fff"
+            android:textSize="25dp" />
+
+
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="43dp">
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="60dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:lineSpacingExtra="4dp"
+                android:text="Are you a"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_patient"
+                android:layout_width="305dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/colorPrimary1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Patient"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+            <Button
+                android:id="@+id/btn_doctor"
+                android:layout_width="305dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="50dp"
+                android:layout_marginTop="80dp"
+                android:layout_marginRight="30dp"
+                android:backgroundTint="@color/colorPrimary1"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:text="Doctor"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+</LinearLayout>

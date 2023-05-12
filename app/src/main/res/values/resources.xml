@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="medfield">
+        <item>Allergy and immunology</item>
+
+        <item>Anesthesiology</item>
+
+        <item>Dermatology</item>
+
+        <item>Diagnostic radiology</item>
+
+        <item>Emergency medicine</item>
+
+        <item>Family medicine</item>
+
+        <item>Internal medicine</item>
+
+        <item>Medical genetics</item>
+
+        <item>Neurology</item>
+
+        <item>Nuclear medicine</item>
+
+        <item>Obstetrics and gynecology</item>
+
+        <item>Ophthalmology</item>
+
+        <item>Pathology</item>
+
+        <item>Pediatrics</item>
+
+        <item>Physical medicine and rehabilitation</item>
+
+        <item>Preventive medicine</item>
+
+        <item>Psychiatry</item>
+
+        <item>Radiation oncology</item>
+
+        <item>Surgery</item>
+
+        <item>Urology</item>
+
+    </string-array>
+
+
+
+</resources>

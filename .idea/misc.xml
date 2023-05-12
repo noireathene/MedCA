@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/keana/Desktop/CAPSTONE/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_main_message.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_appointment.xml" value="0.1" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_appointment_request.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_appointmenthistory.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_bookings_list.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/activity_main_reminder.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/appointment_request_item.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/approved_list.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/doctor_patientview.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/homepage_doctor.xml" value="0.16770833333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/homepage_patient.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/item_container_layout.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/item_container_user.xml" value="0.15208333333333332" />
+        <entry key="..\:/Users/keana/Desktop/FINAL MEDCA/MedCA-master/app/src/main/res/layout/monitoring_items.xml" value="0.16770833333333332" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_16" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

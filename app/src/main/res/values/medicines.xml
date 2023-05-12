@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="medicines">
+        <item>Abacavir</item>
+        <item>Acetated Ringer’s Solution</item>
+        <item>Acetazolamide (B)</item>
+        <item>Acetylcysteine</item>
+        <item>Aciclovir</item>
+        <item>Activated Charcoal</item>
+        <item>Adenosine (1, 2)</item>
+        <item>Adrenaline (see Epinephrine)</item>
+        <item>Albendazole</item>
+        <item>Albumin, Human (1, 2)</item>
+        <item>Bacitracin + Neomycin + Polymixin B</item>
+        <item>Baclofen</item>
+        <item>Balanced Multiple Maintenance Solution</item>
+        <item>Basiliximab (1, 2)</item>
+        <item>Benzoyl Peroxide</item>
+        <item>Benzyl Benzoate</item>
+        <item>Beractant</item>
+        <item>Betamethasone</item>
+        <item>Bicalutamide</item>
+        <item>Biperiden</item>
+        <item>Calcipotriol</item>
+        <item>Calcium</item>
+        <item>Captopril</item>
+        <item>Carbachol</item>
+        <item>Carboprost</item>
+        <item>Carvedilol</item>
+        <item>Cefoxitin</item>
+        <item>Cilostazol</item>
+        <item>Cinnarizine</item>
+        <item>Colchicine</item>
+        <item>Dacarbazine</item>
+        <item>Dexamethasone</item>
+        <item>Diclofenac</item>
+        <item>Domperidone</item>
+        <item>Donepezil</item>
+        <item>Dydrogesterone</item>
+        <item>Dorzolamide</item>
+        <item>Doxycycline</item>
+        <item>Dobutamine (1, 2) </item>
+        <item>Docetaxel (1, 2)</item>
+        <item>Efavirenz</item>
+        <item>Ephedrine</item>
+        <item>Erythromycin</item>
+        <item>Etonogestrel</item>
+        <item>Everolimus</item>
+        <item>Etoposide</item>
+        <item>Ergotamine</item>
+        <item>Ephedrine</item>
+        <item>Enalapril</item>
+        <item>Enoxaparin (as sodium salt) (1,2)</item>
+
+
+
+
+
+
+
+    </string-array>
+</resources>

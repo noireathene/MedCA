@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawerLayout"
+    android:background="#F45B87"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="240dp"
+            android:background="@drawable/homepage_header"
+            android:backgroundTint="#0b3954"
+            android:padding="20dp">
+
+
+            <TextView
+                android:id="@+id/hello"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:fontFamily="sans-serif-condensed-light"
+                android:text="👋 Welcome,"
+                android:textColor="#ffff"
+                android:textSize="25dp" />
+
+            <TextView
+                android:id="@+id/tvpatientname1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/hello"
+                android:layout_marginTop="10dp"
+                android:fontFamily="sans-serif-condensed-medium"
+                android:hint="Patient's Name"
+                android:textColor="#ffff"
+                android:textColorHint="@color/white"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <ImageButton
+                android:id="@+id/btnNotification"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="240dp"
+                android:background="@drawable/ic_notification"
+                android:backgroundTint="#FCE205" />
+
+            <ImageButton
+                android:id="@+id/btnMessage"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/chat_icon"
+                tools:ignore="SpeakableTextPresentCheck" />
+
+
+            <RelativeLayout
+                android:id="@+id/r1"
+                android:layout_width= "wrap_content"
+                android:layout_height="50dp"
+                android:layout_marginTop="130dp">
+
+                <androidx.appcompat.widget.AppCompatImageButton
+                    android:id="@+id/search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/search_bar" />
+
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_content_bottom_2"
+        android:layout_marginTop="1.5in"
+        android:padding="25dp">
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="131dp">
+
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/btnAppointment"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/btn_green"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="67dp"
+                        android:src="@drawable/doc_patient" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="View my Appointments"
+                        android:textAlignment="center"
+                        android:textColor="#d703082b"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1.1in"
+                        android:layout_marginTop="70dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Tap to view"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                    <FrameLayout
+                        android:id="@+id/fragment_container"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_above="@id/btnAppointment"
+                        android:layout_marginBottom="10dp"></FrameLayout>
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="129dp">
+
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/btnPrescription"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/btn_purple"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="67dp"
+                        android:src="@drawable/medication_bg" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="120dp"
+                        android:layout_marginTop="30dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="View My Prescription"
+                        android:textAlignment="center"
+                        android:textColor="#d703082b"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1.1in"
+                        android:layout_marginTop="70dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Tap to view"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageButton
+                        android:id="@+id/btnSearchDoctor"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/btn_yellow"
+                        android:backgroundTint="#F77292"
+                        tools:ignore="SpeakableTextPresentCheck" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:src="@drawable/doctor" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="140dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_marginEnd="30dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Search for Doctors"
+                        android:textAlignment="center"
+                        android:textColor="#d703082b"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="190dp"
+                        android:layout_marginTop="70dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Tap to view"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="128dp"
+                    android:layout_marginTop="10dp">
+
+
+                    <androidx.appcompat.widget.AppCompatImageButton
+                        android:id="@+id/btnMedication"
+                        android:layout_width="match_parent"
+                        android:layout_height="120dp"
+                        android:background="@drawable/btn_blue1"
+                        android:backgroundTint="#F8AF" />
+
+                    <ImageView
+                        android:layout_width="100dp"
+                        android:layout_height="100dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="67dp"
+                        android:src="@drawable/medication_bg" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="110dp"
+                        android:layout_marginTop="20dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="View My Medication Status"
+                        android:textAlignment="center"
+                        android:textColor="#d703082b"
+                        android:textSize="25dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="1.1in"
+                        android:layout_marginTop="80dp"
+                        android:fontFamily="sans-serif-condensed-light"
+                        android:text="Tap to view"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20dp"
+                        android:textStyle="bold" />
+
+
+                </FrameLayout>
+            </LinearLayout>
+        </ScrollView>
+
+
+    </FrameLayout>
+
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/naview"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/nav_header"
+        app:menu="@menu/nav_menu"
+        android:layout_gravity="end"
+        android:fitsSystemWindows="true"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>
